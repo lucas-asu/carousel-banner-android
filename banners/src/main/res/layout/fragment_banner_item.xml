@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.lcruz.banners.fragments.BannerItemFragment">
+
+    <ImageView
+        android:id="@+id/lb_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/lb_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:id="@+id/lb_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fonte:"
+        android:textSize="16sp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"/>
+
+</FrameLayout>
